@@ -11,8 +11,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";
 import "./Hero.css";
-import img1 from '../assets/img_8.jpg';
-import img2 from '../assets/img_14.jpg';
+import img1 from '../assets/img_10.jpg';
+import img2 from '../assets/img_1.jpg';
 import img3 from '../assets/img_6.jpg';
 import img4 from '../assets/img_7.jpg';
 
