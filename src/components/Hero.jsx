@@ -11,7 +11,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";
 import "./Hero.css";
-import img1 from '../assets/img_10.jpg';
+import img1 from '../assets/img_10.jpeg';
 import img2 from '../assets/img_1.jpg';
 import img3 from '../assets/img_6.jpg';
 import img4 from '../assets/img_7.jpg';
@@ -120,27 +120,6 @@ const Hero = () => {
             </button>
           </motion.div>
 
-          <motion.div
-            className="hero-features"
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.6 }}
-          >
-            <div className="feature-item">
-              <FontAwesomeIcon icon={faStar} />
-              <span>Bonfire Nights</span>
-            </div>
-
-            <div className="feature-item">
-              <FontAwesomeIcon icon={faMapMarkerAlt} />
-              <span>Offbeat Location</span>
-            </div>
-
-            <div className="feature-item">
-              <FontAwesomeIcon icon={faConciergeBell} />
-              <span>Nature & Trekking</span>
-            </div>
-          </motion.div>
         </div>
       </div>
 

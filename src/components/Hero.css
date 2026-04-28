@@ -85,15 +85,6 @@
   font-weight: 700;
 }
 
-.hero-subtitle {
-  font-size: 20px;
-  margin-bottom: 40px;
-  line-height: 1.6;
-  color: rgba(255, 255, 255, 0.9);
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .hero-actions {
   display: flex;
@@ -255,5 +246,107 @@
   .hero-features {
     flex-direction: column;
     gap: 15px;
+  }
+}
+
+/* HERO CONTENT */
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  z-index: 2;
+}
+
+.hero-content .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  max-width: 900px;
+  margin-left: 150px;
+}
+
+/* SMALL TOP TEXT */
+.title-accent {
+  font-size: 18px;
+  color: #d1d5db;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+/* BIG HEADING */
+.hero-title {
+  display: flex;
+  flex-direction: column;
+  line-height: 0.95;
+  /* tight like design */
+  margin-bottom: 20px;
+}
+
+/* LINE 1 */
+.hero-title span:nth-child(1) {
+  font-size: 90px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+/* LINE 2 (highlight word) */
+.hero-title span:nth-child(2) {
+  font-size: 90px;
+  font-weight: 900;
+  color: #c9a961;
+  /* your brand blue instead of orange */
+}
+
+/* LINE 3 */
+.hero-title span:nth-child(3) {
+  font-size: 90px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+/* SUBTITLE */
+.hero-subtitle {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 500px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* BUTTON */
+.hero-actions {
+  display: flex;
+  gap: 16px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+  .hero-content .container {
+    margin-left: 20px;
+    max-width: 90%;
+  }
+
+  .hero-title span:nth-child(1),
+  .hero-title span:nth-child(2),
+  .hero-title span:nth-child(3) {
+    font-size: 48px;
+  }
+
+  .hero-subtitle {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .hero-title span:nth-child(1),
+  .hero-title span:nth-child(2),
+  .hero-title span:nth-child(3) {
+    font-size: 36px;
   }
 }

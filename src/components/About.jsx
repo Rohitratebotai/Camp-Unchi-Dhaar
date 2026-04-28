@@ -4,6 +4,7 @@ import { faAward } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";
 import "./About.css";
 import aboutimg from '../assets/img_5.jpg';
+import img1 from '../assets/img_10.jpeg';
 
 const About = () => {
   const scrollToRooms = () => {
@@ -75,6 +76,9 @@ const About = () => {
               <div className="image-badge">
                 <FontAwesomeIcon icon={faAward} />
                 <span>Authentic Camping</span>
+              </div>
+              <div className="image-overlay">
+                <img className="img-overlay" src={img1} alt="Camp Unchi Dhaar Chakrata" />
               </div>
             </motion.div>
 
