@@ -12,9 +12,9 @@ import {
 import { motion } from "framer-motion";
 import "./Hero.css";
 import img1 from '../assets/img_10.jpeg';
-import img2 from '../assets/img_1.jpg';
-import img3 from '../assets/img_6.jpg';
-import img4 from '../assets/img_7.jpg';
+import img2 from '../assets/deoban2.avif';
+import img3 from '../assets/chopta2.webp';
+import img4 from '../assets/nagtrek3.webp';
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);

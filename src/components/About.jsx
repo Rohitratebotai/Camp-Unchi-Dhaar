@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAward } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";
 import "./About.css";
-import aboutimg from '../assets/img_5.jpg';
+import aboutimg from '../assets/nagtrek2.webp';
 import img1 from '../assets/img_10.jpeg';
 
 const About = () => {
