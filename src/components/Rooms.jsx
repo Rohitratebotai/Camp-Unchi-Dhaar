@@ -35,7 +35,7 @@ const Rooms = () => {
       id: "FamilyTent",
       title: "5-Person Tent",
       subtitle: "Best for Friends & Families",
-      price: "₹1,500",
+      price: "₹2,000",
       image: img2,
       description:
         "Spacious tents designed for groups and families, offering a fun and shared camping experience in the hills.",
