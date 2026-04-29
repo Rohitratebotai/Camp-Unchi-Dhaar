@@ -94,7 +94,7 @@ const Footer = () => {
           </div>
 
           <div className="footer-bottom">
-            <p>&copy; {new Date().getFullYear()} Dhani Trekking Camping . All Rights Reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Camp Unchi Dhaar. All Rights Reserved.</p>
             <p>
               Powered by{" "}
               <a
